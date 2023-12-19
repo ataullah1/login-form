@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=], initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="formitem">
+      <h1>Login From</h1>
+      <form action="" id="loginForm" onsubmit="return formFunction()">
+        <input
+          type="text"
+          name="username"
+          class="formValue"
+          placeholder="Your username"
+        />
+        <input
+          type="email"
+          name="email"
+          class="formValue"
+          placeholder="Your Email "
+        />
+        <input
+          type="password"
+          name="password"
+          class="formValue"
+          placeholder="Your Password"
+        />
+        <input type="submit" value="Login Now" />
+        <p>Forget Password? <a href="#">Click here !</a></p>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
